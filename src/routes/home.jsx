@@ -6,16 +6,18 @@ import{FaHouse, FaMapPin, FaPhone} from 'react-icons/fa6'
 import 'swiper/css/pagination'
 import 'swiper/css/navigation'
 import 'swiper/css/autoplay'
+import 'swiper/css/scrollbar'
 import AnimatedLayout from '../../animation/AnimatedLayout';
-import { Pagination, Autoplay, Navigation } from 'swiper/modules'
+import { Pagination, Autoplay, Navigation, Scrollbar } from 'swiper/modules'
 export default function Home() {
     return (
       <AnimatedLayout>
         <Swiper
-          modules={[Pagination, Autoplay]}
+          modules={[Pagination, Autoplay, Scrollbar]}
           direction={'vertical'}
           slidesPerView={1}
-          pagination={{ clickable: true }}
+                pagination={{ clickable: true }}
+                scrollbar={{draggable: true }}
           autoplay={{
             delay: 5000,
             disableOnInteraction: false,
@@ -130,7 +132,9 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <Link to="/about" className="btn btn-primary m-3">En Savoir Plus...</Link>
+          <Link to="/about" className="btn btn-primary m-3">
+            En Savoir Plus...
+          </Link>
         </div>
         <div className="flex flex-col justify-center items-center w-full  p-10 bg-primary">
           <h2 className="text-5xl my-10 text-center text-white font-extrabold border-b-4 border-secondary p-2">
