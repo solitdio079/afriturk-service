@@ -3,12 +3,12 @@ import { FaHouse, FaMapPin, FaPhone ,FaWhatsapp, FaEnvelope } from 'react-icons/
 export default function Contact() {
     return (
       <AnimatedLayout>
-        <div className="flex flex-col justify-center items-center w-full  p-10">
+        <div className="flex flex-col justify-center items-center w-full p-5  lg:p-10">
           <h2 className="text-5xl my-10 text-center font-extrabold border-b-4 border-secondary p-2">
             Contactez-Nous
           </h2>
           <div className="flex flex-col lg:flex-col w-full">
-            <div className="flex flex-row bg-primary justify-between text-white w-full p-5  shrink-0">
+            <div className="flex flex-col lg:flex-row bg-primary justify-between text-white w-full p-5  shrink-0">
               <span className="flex flex-row text-lg  items-center">
                 <FaHouse className="m-2" /> Address
               </span>

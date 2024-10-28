@@ -147,7 +147,7 @@ export default function Home() {
                 slidesPerView: 1,
               },
               639: {
-                slidesPerView: 2,
+                slidesPerView: 1,
               },
               865: {
                 slidesPerView: 2,
@@ -257,7 +257,7 @@ export default function Home() {
           </h2>
           <div className="flex flex-col lg:flex-col w-full">
             <div className="flex flex-row bg-primary justify-between text-white w-full p-5  shrink-0">
-              <span className="flex flex-row text-lg  items-center">
+              <span className="flex flex-col lg:flex-row text-lg  items-center">
                 <FaHouse className="m-2" /> Address
               </span>
               <span className="flex flex-row text-lg items-center">
