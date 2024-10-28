@@ -16,8 +16,8 @@ export default function Home() {
           modules={[Pagination, Autoplay, Scrollbar]}
           direction={'vertical'}
           slidesPerView={1}
-                pagination={{ clickable: true }}
-                scrollbar={{draggable: true }}
+          pagination={{ clickable: true }}
+          scrollbar={{ draggable: true }}
           autoplay={{
             delay: 5000,
             disableOnInteraction: false,
@@ -260,8 +260,8 @@ export default function Home() {
             Contactez-Nous
           </h2>
           <div className="flex flex-col lg:flex-col w-full">
-            <div className="flex flex-row bg-primary justify-between text-white w-full p-5  shrink-0">
-              <span className="flex flex-col lg:flex-row text-lg  items-center">
+            <div className="flex  flex-col lg:flex-row bg-primary justify-between text-white w-full p-5  shrink-0">
+              <span className="flexflex-row text-lg  items-center">
                 <FaHouse className="m-2" /> Address
               </span>
               <span className="flex flex-row text-lg items-center">
