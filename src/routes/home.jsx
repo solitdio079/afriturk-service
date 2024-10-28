@@ -7,17 +7,24 @@ import 'swiper/css/pagination'
 import 'swiper/css/navigation'
 import 'swiper/css/autoplay'
 import 'swiper/css/scrollbar'
+import 'swiper/css/mousewheel'
 import AnimatedLayout from '../../animation/AnimatedLayout';
-import { Pagination, Autoplay, Navigation, Scrollbar } from 'swiper/modules'
+import { Pagination, Autoplay, Navigation, Scrollbar,Mousewheel } from 'swiper/modules'
 export default function Home() {
     return (
       <AnimatedLayout>
         <Swiper
-          modules={[Pagination, Autoplay, Scrollbar]}
+          modules={[Pagination, Autoplay, Scrollbar,Mousewheel]}
           direction={'vertical'}
           slidesPerView={1}
           pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}
+          mousewheel={{
+            forceToAxis: true,
+            sensitivity: 1,
+            releaseOnEdges: true,
+          }}
+         
           autoplay={{
             delay: 5000,
             disableOnInteraction: false,
