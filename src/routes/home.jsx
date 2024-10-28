@@ -15,7 +15,7 @@ export default function Home() {
       <AnimatedLayout>
         <Swiper
           modules={[Pagination, Autoplay, Scrollbar,Mousewheel]}
-          direction={'vertical'}
+         
           slidesPerView={1}
           pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}
