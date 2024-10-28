@@ -73,18 +73,13 @@ export default function About() {
             <SwiperSlide>
               <div className="card bg-base-100 w-96 shadow-xl m-3">
                 <figure>
-                  <img src="/team1.jpg" className="h-96" alt="Shoes" />
+                  <img src="/team1.jpeg" className="h-96" alt="Shoes" />
                 </figure>
                 <div className="card-body">
                   <h2 className="card-title">
-                    Mohamed Diawara{' '}
+                    MOHAMED DIAWARA{' '}
                     <span className="text-sm text-primary">Fondateur</span>
                   </h2>
-
-                  <p>
-                    Gestion des frets maritimes et aériens, en étroite
-                    collaboration avec le département logistique.
-                  </p>
                 </div>
               </div>
             </SwiperSlide>
@@ -92,38 +87,39 @@ export default function About() {
             <SwiperSlide>
               <div className="card bg-base-100 w-96 shadow-xl m-3">
                 <figure>
-                  <img src="/team2.jpg" className="h-96" alt="Shoes" />
+                  <img src="/team2.jpeg" className="h-96" alt="Shoes" />
                 </figure>
                 <div className="card-body">
                   <h2 className="card-title">
-                    Boubacar Mariko{' '}
+                    BOUBACAR MARIKO{' '}
                     <span className="text-sm text-primary">Co-Fondateur</span>
                   </h2>
-
-                  <p>
-                    Gestion des frets maritimes et aériens, en étroite
-                    collaboration avec le département logistique.
-                  </p>
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="card bg-base-100 w-96 shadow-xl m-3">
                 <figure>
-                  <img src="/team3.jpg" className="h-96" alt="Shoes" />
+                  <img src="/team3.jpeg" className="h-96" alt="Shoes" />
                 </figure>
                 <div className="card-body">
                   <h2 className="card-title">
-                    Luke Skywalker{' '}
-                    <span className="text-sm text-primary">
-                      Security Manager
-                    </span>
+                    SIDI YAYA TRAORE
+                    <span className="text-sm text-primary">Manager</span>
                   </h2>
-
-                  <p>
-                    Gestion des frets maritimes et aériens, en étroite
-                    collaboration avec le département logistique.
-                  </p>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="card bg-base-100 w-96 shadow-xl m-3">
+                <figure>
+                  <img src="/team4.jpeg" className="h-96" alt="Shoes" />
+                </figure>
+                <div className="card-body">
+                  <h2 className="card-title">
+                    OUMOU AHMADOU GOUNDAMKOI
+                    <span className="text-sm text-primary">Manager</span>
+                  </h2>
                 </div>
               </div>
             </SwiperSlide>
