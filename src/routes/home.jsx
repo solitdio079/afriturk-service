@@ -14,7 +14,6 @@ export default function Home() {
         <Swiper
           modules={[Pagination, Autoplay]}
           direction={'vertical'}
-          loop={true}
           slidesPerView={1}
           pagination={{ clickable: true }}
           autoplay={{
