@@ -29,7 +29,7 @@ export default function Home() {
             delay: 5000,
             disableOnInteraction: false,
           }}
-          className="h-screen"
+         
         >
           <SwiperSlide>
             <div
@@ -173,7 +173,8 @@ export default function Home() {
                 slidesPerView: 2,
               },
             }}
-            pagination={{ clickable: true }}
+                    pagination={{ clickable: true }}
+                    spaceBetween={50}
             navigation
             className="w-full"
           >

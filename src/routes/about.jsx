@@ -41,6 +41,7 @@ export default function About() {
           </h2>
           <Swiper
             modules={[Pagination, Navigation]}
+            spaceBetween={50}
             loop={true}
             breakpoints={{
               0: {
@@ -144,7 +145,6 @@ export default function About() {
                 fructueux, facilitant la coopération économique et culturelle
                 entre nos deux régions.
               </p>
-             
             </div>
           </div>
         </div>
@@ -164,7 +164,6 @@ export default function About() {
                 souhaitons contribuer activement au développement de
                 l&apos;Afrique.
               </p>
-             
             </div>
           </div>
         </div>
