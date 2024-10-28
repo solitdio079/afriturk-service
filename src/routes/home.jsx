@@ -268,7 +268,7 @@ export default function Home() {
           </h2>
           <div className="flex flex-col lg:flex-col w-full">
             <div className="flex  flex-col lg:flex-row bg-primary justify-between text-white w-full p-5  shrink-0">
-              <span className="flexflex-row text-lg  items-center">
+              <span className="flex flex-row text-lg  items-center">
                 <FaHouse className="m-2" /> Address
               </span>
               <span className="flex flex-row text-lg items-center">
